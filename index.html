@@ -11,22 +11,24 @@
 </head>
 
 <body>
+    <div class="container">
+            
+        <div class="caixa">
+            <h2>Gerador de Token</h2>
+            <img src="img/token.png" alt="token-png">
+            <div id="boxInput">
+                <input type="text" placeholder="Crie uma senha" id="senha">
+            </div>
+            <table>
+                <th>
+                    <div id="button" class="btn1" onclick="gerarSenha()">Gerar</div>
+                </th>
+                <th>
+                    <a id="button" class="btn2" onclick="copiarSenha()">Copiar</a>
+                </th>
+            </table>
 
-    <div class="caixa">
-        <h2>Gerador de Token</h2>
-        <div id="boxInput">
-            <input type="text" placeholder="Crie uma senha" id="senha">
         </div>
-        <table>
-            <th>
-                <div id="button" class="btn1" onclick="gerarSenha()">Gerar</div>
-            </th>
-            <th>
-                <a id="button" class="btn2" onclick="copiarSenha()">Copiar</a>
-            </th>
-        </table>
-
-
     </div>
 
 </body>
