@@ -17,35 +17,35 @@ html, body {
     max-width: 1000px;
     min-width: 600px;
     /*background-color: rgb(255, 0, 0);*/
-    padding-top: 25px;
-    padding: 25px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 img {
     width: 80px;
     height: 60px;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
+    justify-content: center;
     display: flex;
     margin: 0 auto;
 }
 
 .caixa {
     background-color: rgba(211, 211, 211, 0.089);
-    padding-top: 20px;
-    padding: 20px;
+    padding-top: 10px;
+    padding: 10px;
     border-radius: 7px;
     border: 4px solid rgb(255, 255, 255);
     margin-top: 10px;
 }
 
 .caixa h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 30px;
     color:rgb(20, 139, 250);
@@ -53,14 +53,16 @@ img {
 }
 
 .caixa #boxInput {
-    height: 80px;
-    width: 400px;
+    height: 80%;
+    width: 500px;
     /*background-color: blueviolet;*/
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
-input {
+.caixa #boxInput input {
     padding: 15px;
     user-select: none;
     height: 50px;
@@ -78,12 +80,53 @@ input::placeholder {
     font-size: 23px;
 }
 
+.password_items {
+    height: 100%;
+    width: 250px;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    gap: 12px;
+}
+
+#size {
+    width: 70px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+#size::-webkit-inner-spin-button,
+#size::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+.btn1-2 {
+    /*background-color: brown;*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 100px;
+    margin-top: 12px;
+
+}
+
 #button {
+    background-color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    margin-top: 40px;
+    margin-top: 25px;
     border: 2px solid rgb(20, 139, 250);
-    width: 155px;
+    width: 150px;
     height: 50px;
     text-align: center;
     background-color: #0c81ee;
@@ -96,7 +139,7 @@ input::placeholder {
 }
 
 .btn2 {
-    margin-left: 85px;
+    margin-left: 20px;
 }
 
 #button:hover {

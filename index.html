@@ -17,9 +17,25 @@
             <h2>Gerador de Token</h2>
             <img src="img/token.png" alt="token-png">
             <div id="boxInput">
-                <input type="text" placeholder="Crie uma senha" id="senha">
+                <input type="text" placeholder="Novo token" id="senha">
             </div>
-            <table>
+
+            <div class="password_items">
+                <div class="item">
+                    <input id="size" name="size" type="number">
+                    <label for="size">Tamanho do Token</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" name="inclui-maiusculas" id="inclui-maiusculas">
+                    <label for="size">Incluir letras maiúsculas</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" name="inclui-carcteres" id="inclui-carcteres">
+                    <label for="size">Incluir caracteres especiais</label>
+                </div>
+            </div>
+
+            <table class="btn1-2">
                 <th>
                     <div id="button" class="btn1" onclick="gerarSenha()">Gerar</div>
                 </th>
